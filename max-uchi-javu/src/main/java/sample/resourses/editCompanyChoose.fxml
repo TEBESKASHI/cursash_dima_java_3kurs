@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="296.0" prefWidth="296.0" style="" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Client.editCompanyChoose">
+    <children>
+        <Pane id="1" layoutX="0.0" layoutY="0.0" prefHeight="296.0" prefWidth="296.0" style="">
+            <children>
+                <Button id="companyDetail" fx:id="back" layoutX="124.0" layoutY="241.0" mnemonicParsing="false" text="Назад" />
+                <Label fx:id="newCon" layoutX="66.0" layoutY="32.0" text="Добавление новой компании" />
+                <Button fx:id="editCompany" layoutX="48.0" layoutY="77.0" prefWidth="200.0" text="Редактирование главной информации" />
+                <Button fx:id="editCapital" layoutX="48.0" layoutY="123.0" prefWidth="200.0" text="Редатирование собственного капитала" />
+                <Button fx:id="editBorrowedCapital" layoutX="48.0" layoutY="162.0" prefWidth="200.0" text="Редатирование заемного капитала" />
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

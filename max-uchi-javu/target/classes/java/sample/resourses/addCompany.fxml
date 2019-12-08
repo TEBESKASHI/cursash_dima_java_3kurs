@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<AnchorPane prefHeight="296.0" prefWidth="296.0" style="" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="sample.Client.addCompanyController">
+  <children>
+    <Pane id="1" layoutX="0.0" layoutY="0.0" prefHeight="296.0" prefWidth="296.0" style="">
+      <children>
+        <Button id="add" fx:id="save" layoutX="183.0" layoutY="241.0" mnemonicParsing="false" text="Сохранить" />
+        <Button id="companyDetail" fx:id="back" layoutX="40.0" layoutY="241.0" mnemonicParsing="false" text="Назад" />
+        <Label fx:id="newCon" layoutX="88.0" layoutY="34.0" text="Добавление новой компании" />
+        <TextField fx:id="companyName" layoutX="48.0" layoutY="78.0" prefWidth="200.0" promptText="Название компании" />
+        <TextField fx:id="companyTag" layoutX="48.0" layoutY="122.0" prefWidth="200.0" promptText="Сокращенное Название" />
+      </children>
+    </Pane>
+  </children>
+</AnchorPane>

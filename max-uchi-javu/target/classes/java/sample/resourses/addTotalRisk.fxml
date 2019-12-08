@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<AnchorPane prefHeight="296.0" prefWidth="296.0" style="" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="sample.Client.addBorrowedCapital">
+    <children>
+        <Pane id="1" layoutX="0.0" layoutY="0.0" prefHeight="296.0" prefWidth="296.0" style="">
+            <children>
+                <Button id="next" fx:id="save" layoutX="183.0" layoutY="241.0" mnemonicParsing="false" text="Сохранить" />
+                <Label fx:id="myCap" layoutX="88.0" layoutY="34.0" text="Добавление заемного капитала компании" />
+                <TextField fx:id="creditSum" layoutX="48.0" layoutY="78.0" prefWidth="200.0" promptText="Кредиты (взятая сумма)" />
+                <TextField fx:id="percent" layoutX="48.0" layoutY="122.0" prefWidth="200.0" promptText=" % Ставка по кредиту" />
+                <TextField fx:id="withoutPercent" layoutX="48.0" layoutY="172.0" prefWidth="200.0" promptText=" В долг без % " />
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

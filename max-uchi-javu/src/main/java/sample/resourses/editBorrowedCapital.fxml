@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="488.0" prefWidth="590.0" style="" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Client.editBorrowedCapital">
+    <children>
+        <Pane id="" layoutY="0.0" prefHeight="488.0" prefWidth="585.0" style="">
+            <children>
+                <Button id="saveEdit" fx:id="saveEdit" layoutX="423.0" layoutY="428.0" mnemonicParsing="false" text="Сохранить" />
+                <Button id="back" fx:id="back" layoutX="87.0" layoutY="428.0" mnemonicParsing="false" text="Назад" />
+                <Label layoutX="230.0" layoutY="36.0" text="Редактирование">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Label>
+                <Label layoutX="100.0" layoutY="184.0" text="Кредиты (взятая сумма)" />
+                <Label layoutX="100.0" layoutY="253.0" text=" % Ставка по кредиту;" />
+                <Label layoutX="100.0" layoutY="324.0" text=" В долг без % " />
+                <TextField fx:id="credit" layoutX="286.0" layoutY="180.0" />
+                <TextField fx:id="percent" layoutX="286.0" layoutY="249.0" />
+                <TextField fx:id="withoutPercent" layoutX="286.0" layoutY="320.0" />
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

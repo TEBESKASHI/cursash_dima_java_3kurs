@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="CENTER" gridLinesVisible="false" hgap="10.0" prefHeight="347.0" prefWidth="363.0" style="" vgap="10.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Client.bisnes">
+    <children>
+        <AnchorPane prefHeight="370.0" prefWidth="396.0" style="" GridPane.columnIndex="0" GridPane.rowIndex="0">
+            <children>
+                <Pane id="1" layoutX="0.0" layoutY="0.0" prefHeight="347.0" prefWidth="354.0" style="">
+                    <children>
+                        <Button fx:id="exit" layoutX="151.0" layoutY="265.0" mnemonicParsing="false" text=" Назад" />
+                        <Label alignment="CENTER" layoutX="15.0" layoutY="92.0" prefHeight="58.0" prefWidth="324.0" text="Что бы уровень риска был низким нужно увеличить СК на" textAlignment="CENTER" />
+                        <Label fx:id="labelAv" alignment="CENTER" layoutX="89.0" layoutY="150.0" text="Операция выполнена успешно!" textAlignment="CENTER" />
+                    </children>
+                </Pane>
+            </children>
+        </AnchorPane>
+    </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="296.0" prefWidth="296.0" style="" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Client.companyDetail">
+  <children>
+    <Pane id="1" layoutX="0.0" layoutY="0.0" prefHeight="296.0" prefWidth="296.0" style="">
+      <children>
+        <Button id="SignInButton" fx:id="exit" layoutX="196.0" layoutY="241.0" mnemonicParsing="false" text="Выход" />
+        <Button id="addCompany" fx:id="addCompany" layoutX="58.0" layoutY="39.0" mnemonicParsing="false" text="Добавление новой компании" />
+        <Button id="editCompany" fx:id="editCompany" layoutX="65.0" layoutY="88.0" mnemonicParsing="false" text="Редактирование компнаии" />
+        <Button id="deleteCompany" fx:id="deleteCompany" layoutX="85.0" layoutY="148.0" mnemonicParsing="false" text="Удаление компании" />
+        <Button id="exit" fx:id="back" layoutX="40.0" layoutY="241.0" mnemonicParsing="false" text="Назад" />
+      </children>
+    </Pane>
+  </children>
+</AnchorPane>

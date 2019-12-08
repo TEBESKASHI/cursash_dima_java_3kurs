@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="323.0" prefWidth="613.0" style="" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Client.riskDetail">
+    <children>
+        <Pane id="1" layoutX="0.0" layoutY="0.0" prefHeight="323.0" prefWidth="613.0" style="">
+            <children>
+                <Button id="signOut" fx:id="exit" layoutX="281.0" layoutY="266.0" mnemonicParsing="false" text="Выход" />
+                <Text fx:id="text" layoutX="76.0" layoutY="20.0" />
+                <Button fx:id="risk" layoutX="217.0" layoutY="40.0" mnemonicParsing="false" text="Уровень риска для компании" />
+                <Button fx:id="diagCir" layoutX="274.0" layoutY="82.0" mnemonicParsing="false" text="График 1" />
+                <Button fx:id="margin" layoutX="245.0" layoutY="126.0" mnemonicParsing="false" text="Узнать марж за год" />
+                <Button fx:id="bisnes" layoutX="250.0" layoutY="171.0" mnemonicParsing="false" text=" Бизнес-функция " />
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

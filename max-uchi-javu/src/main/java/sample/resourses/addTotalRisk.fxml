@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="296.0" prefWidth="296.0" style="" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Client.addBorrowedCapital">
+    <children>
+        <Pane id="1" layoutX="0.0" layoutY="0.0" prefHeight="296.0" prefWidth="296.0" style="">
+            <children>
+                <Button id="next" fx:id="save" layoutX="183.0" layoutY="241.0" mnemonicParsing="false" text="Сохранить" />
+                <Label fx:id="myCap" layoutX="31.0" layoutY="40.0" text="Добавление заемного капитала компании" />
+                <TextField fx:id="creditSum" layoutX="48.0" layoutY="78.0" prefWidth="200.0" promptText="Кредиты (взятая сумма)" />
+                <TextField fx:id="percent" layoutX="48.0" layoutY="122.0" prefWidth="200.0" promptText=" % Ставка по кредиту" />
+                <TextField fx:id="withoutPercent" layoutX="48.0" layoutY="172.0" prefWidth="200.0" promptText=" В долг без % " />
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

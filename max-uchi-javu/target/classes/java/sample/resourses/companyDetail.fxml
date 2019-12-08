@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<AnchorPane prefHeight="296.0" prefWidth="296.0" style="" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Client.companyDetail">
+  <children>
+    <Pane id="1" layoutX="0.0" layoutY="0.0" prefHeight="296.0" prefWidth="296.0" style="">
+      <children>
+        <Button id="SignInButton" fx:id="exit" layoutX="196.0" layoutY="241.0" mnemonicParsing="false" text="Выход" />
+        <Button id="addCompany" fx:id="addCompany" layoutX="52.0" layoutY="42.0" mnemonicParsing="false" text="Добавление новой компании" />
+        <Button id="editCompany" fx:id="editCompany" layoutX="64.0" layoutY="102.0" mnemonicParsing="false" text="Редактирование компнаии" />
+        <Button id="deleteCompany" fx:id="deleteCompany" layoutX="64.0" layoutY="162.0" mnemonicParsing="false" text="Удаление компании" />
+        <Button id="exit" fx:id="back" layoutX="40.0" layoutY="241.0" mnemonicParsing="false" text="Назад" />
+      </children>
+    </Pane>
+  </children>
+</AnchorPane>

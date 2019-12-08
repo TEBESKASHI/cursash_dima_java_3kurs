@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="613.0" style="" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Client.diagCircle">
+    <children>
+        <Pane id="1" layoutX="0.0" layoutY="0.0" prefHeight="350.0" prefWidth="613.0" style="">
+            <children>
+                <PieChart fx:id="diag" layoutX="131.0" layoutY="40.0" prefHeight="270.0" prefWidth="333.0" title="Отношение ЗК к СК" />
+            </children>
+        </Pane>
+          <Button id="SignInButton" fx:id="back" layoutX="292.0" layoutY="359.0" mnemonicParsing="false" text="Назад" />
+    </children>
+</AnchorPane>

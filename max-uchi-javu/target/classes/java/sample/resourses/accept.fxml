@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="267.0" prefWidth="265.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Client.AcceptController">
+  <children>
+    <Pane id="" layoutX="0.0" layoutY="0.0" prefHeight="267.0" prefWidth="265.0" style="">
+      <children>
+        <Label alignment="CENTER" layoutX="40.0" layoutY="125.0" text="Вы успешно зарегистрировались!" textAlignment="CENTER" />
+        <Button fx:id="Next" layoutX="108.0" layoutY="218.0" mnemonicParsing="false" text="Далее" />
+      </children>
+    </Pane>
+  </children>
+</AnchorPane>
